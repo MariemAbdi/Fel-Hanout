@@ -1,0 +1,38 @@
+.grid_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+.my_image{
+    width: 200px;
+}
+.list {
+    display: list-item;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    align-items: "flex-start"
+  }
+
+.link{
+    color:black
+}
+
+.link:hover{
+    color:blue
+}
+
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+  }
+  
+.child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+
+  
+
+table tr td:nth-child(1) {
+    width: 10%;}
